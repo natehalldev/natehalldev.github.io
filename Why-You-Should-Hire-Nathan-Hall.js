@@ -8,15 +8,16 @@ var h1 = document.querySelector('h1');
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
 var reason = -1;
-var reasonText = ["1.  I'm a Strengths-based Team Player.", 
-"2.  I'm Passionate About Efficiency.",
-"3.  I'm a Creative Problem Solver.",
-"4.  I'm Always Learning New Things.",
+var reasonText = ["1.  I'm Always Learning New Things.",
+	"2.  I'm a Strengths-based Team Player.", 
+"3.  I'm Passionate About Efficiency.",
+"4.  I'm a Creative Problem Solver.",
+
 "5.  I'm a Community Builder.",
 "6.  I Can Manage Multifaceted Projects."
 ];
 var img = document.querySelectorAll('.square');
-var reasonTextLong = ["I am always learning new things -       I am currently enrolled in Zip Code Wilmington, an intensive, full-stack software development boot camp focused on Java.  After being selected from over 350 applicants, I am currently working over 80 hours per week collaborating on group projects while gaining experience in Java, SQL, Spring Boot, Angular, JavaScript, Test Driven Development and Agile Scrum methodologies.", 
+var reasonTextLong = ["I am always learning new things - I am currently enrolled in Zip Code Wilmington, an intensive, full-stack software development boot camp focused on Java.  After being selected from over 350 applicants, I am currently working over 80 hours per week collaborating on group projects while gaining experience in Java, SQL, Spring Boot, Angular, JavaScript, Test Driven Development and Agile Scrum methodologies.", 
 "I am a Strengths-based Team Player -  I always try to involve the quietest person in the room as everyone can succeed when they are heard and properly aligned with their strongest skills.  My experience in event coordination and as a performer allows me to quickly engage diverse groups of people, collaborate as part of a team, or manage projects independently.", 
 "I am Passionate about Efficiency -  I constantly strive to create a systemic workflow so that my daily efforts can focus on the necessary client-specific customization.  Clarity and concision are my specialty, and particularly serve me well in my software development efforts.  Fun Fact - Even in my personal life, I am all about maximizing resources.  According to CVS, I am in the top 1% of Savers in Pennsylvania!  #EfficientProficient",
 "I am a Creative Problem Solver -  I mean, check out this website! ;)  I am constantly looking for what Wil Reynolds describes as the next 'orange tape' idea.  Innovation happens when flexible minds are matched with meaningful data to meet the needs of the user.  Creative thinkers are imperative to successfully navigating our ever-changing digital world.",
